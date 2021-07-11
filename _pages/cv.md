@@ -22,13 +22,13 @@ Education
 Work experience
 ======
 * Jun 2015 - Jul 2016: Instituto Federal de Telecomunicaciones, Mexico. (Federal Institute of Telecommunications)
-  * Regulation of Wholesale Prices in Telecommunications.
+  *Regulation of Wholesale Prices in Telecommunications.
 
 * Feb 2015 - Jun 2015: Secretaría de Economía, Mexico. (Ministry of Economy)
-  * Assistant at Nuevo León's branch.
+  *Assistant at Nuevo León's branch.
 
 * Jan 2014 - Jul 2014: Banco de México (México's Central Bank)
- * Intern in Regional Research branch.
+  *Intern in Regional Research branch.
 
 Skills
 ======
