@@ -9,7 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my CV [here](../files/CV.pdf)
+You can download my CV [here](../files/CV.pdf).
+También puedes descargar mi CV en [español] (../files/CV_spanish.pdf)).
 
 Education
 ======
@@ -19,40 +20,25 @@ Education
 
 Work experience
 ======
-* Summer 2019: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Jun 2015 - Jul 2016: Instituto Federal de Telecomunicaciones, Mexico. (Federal Institute of Telecommunications)
+  * Regulation of Wholesale Prices in Telecommunications.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* Feb 2015 - Jun 2015: Secretaría de Economía, Mexico. (Ministry of Economy)
+  * Assistant at Nuevo León's branch.
+
+* Jan 2014 - Jul 2014: Banco de México (México's Central Bank)
+ * Intern in Regional Research branch.
+
 Skills
 ======
 * Stata
 * LATEX
 * Python (basic)
+* QGIS (basic)
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
