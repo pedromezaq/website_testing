@@ -1,0 +1,208 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage[fontsize=11pt]{scrextend}
+\usepackage[utf8]{inputenc}
+%These two packages are to change the font to the alternative one.
+
+%\usepackage{newpxtext,newpxmath}
+\usepackage{fontspec}
+\setmainfont{AnnapurnaSIL-Regular.ttf}%
+[Script=Devanagari,Mapping=velthuis,
+BoldFont=AnnapurnaSIL-Bold.ttf]
+
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref} %
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    unicode=true,
+}
+
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in} %-0.375in
+\addtolength{\evensidemargin}{-0.375in} %-0.375in
+\addtolength{\textwidth}{1in} %1in
+\addtolength{\topmargin}{-.5in} %-.5in
+\addtolength{\textheight}{1.0in} %1.0in
+
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{5pt} \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}
+    \vspace*{-7pt}
+}
+\newcommand{\resumeSubSubItem}[2]{
+    \vspace{-3pt} \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \hfill \textit{\small #2} \\
+    \end{tabular*} 
+    \vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\LARGE Pedro Meza-Quintanilla} & Email : \href{mailto:mezaquin@msu.edu}{\url{mezaquin@msu.edu}}\\
+  \url{https://sites.google.com/view/pmezaq} & Mobile : +1 517 XXX XXXX \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Michigan State University}{East Lansing, MI}
+      \resumeSubSubItem{Doctor of Philosophy in Economics}{Expected May 2021}
+      \resumeSubSubItem{Master of Arts in Economics}{May 2018}
+    \resumeSubheading
+      {Universidad Autónoma de Nuevo León}{Monterrey, Mexico}
+      \resumeSubSubItem{Bachelor of Arts in Economics}{Apr 2016}
+  \resumeSubHeadingListEnd
+
+%-----------FIELDS OF INTEREST-----------------
+\section{Fields of Interest}
+ \resumeSubHeadingListStart
+   \item[]{
+     \textbf{}{Public Economics, Political Economy}
+     \hfill
+   }
+ \resumeSubHeadingListEnd
+ 
+ %-----------WORK IN PROGRESS-----------------
+%\section{Work in Progress}
+% \resumeSubHeadingListStart
+%   \item[]{
+%     \textbf{}{}
+%     \hfill
+%   }
+% \resumeSubHeadingListEnd
+
+%-----------TEACHING EXPERIENCE-----------------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+   	\resumeSubheading
+	  {Research Assistant, AEA Summer Program}{East Lansing, MI}
+	  	\resumeSubSubItem{Foundational Research}{Summer 2019}
+    \resumeSubheading
+      {Instructor, Universidad Autónoma de Nuevo León}{Monterrey, Mexico}
+      \resumeSubSubItem{Finanzas Públicas II (Undergraduate Public Revenues)}{Summer 2018}
+    \resumeSubheading
+      {Instructor, Michigan State University}{East Lansing, MI}
+      \resumeSubSubItem{EC370 - Economics of Sports (Online Course)}{Summer 2018}
+
+    \resumeSubheading
+      {Teaching Assistant, Michigan State University}{East Lansing, MI}
+      \resumeSubSubItem{EC310 - Economics of Developing Countries}{Spring 2020}
+      \resumeSubSubItem{EC410 - Issues in the Economics of Developing Countries}{Spring 2020 \& Fall 2019}
+      \resumeSubSubItem{EC436 - Public Revenues}{Fall 2019}
+      \resumeSubSubItem{PPL803 - Quantitative Methods III}{Fall 2019}
+      \resumeSubSubItem{EC251H - Microeconomics and Public Policy}{Spring 2019}
+      \resumeSubSubItem{ISS305 - Evaluating Evidence in Social Sciences}{Spring 2019}
+      \resumeSubSubItem{EC340 - Survey of International Economics}{Fall 2018}
+      \resumeSubSubItem{EC412 - Economic Analysis of Latin America}{Fall 2018}
+      \resumeSubSubItem{EC301 - Intermediate Microeconomics}{Spring 2018 \& Spring 2017}
+      \resumeSubSubItem{EC201 - Introduction to Microeconomics}{Fall 2017}
+      \resumeSubSubItem{EC302 - Intermediate Macroeconomics}{Fall 2016}
+
+
+  \resumeSubHeadingListEnd
+
+%-----------WORKING EXPERIENCE-----------------
+\section{Working Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Instituto Federal de Telecomunicaciones}{Mexico City, Mexico}
+      \resumeSubSubItem{Regulation of Wholesale Prices in Telecom}{Jun 2015 - Jul 2016}
+    \resumeSubheading
+      {Secretaría de Economía}{Monterrey, Mexico}
+      \resumeSubSubItem{Assistant in Nuevo León's branch}{Feb 2015 - Jun 2015}
+    \resumeSubheading
+      {Banco de México}{Monterrey, Mexico}
+      \resumeSubSubItem{Intern in Regional Research Division}{Jan 2014 - Jul 2014}
+
+
+  \resumeSubHeadingListEnd
+
+
+%-----------COMPUTER SKILLS-----------------
+\section{Computer Skills}
+ \resumeSubHeadingListStart
+   \item[]{
+     \textbf{}{STATA, \LaTeX, MATLAB, QGIS}
+     \hfill
+   }
+ \resumeSubHeadingListEnd
+
+%-----------OTHER-----------------
+\section{Awards}
+
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Academic Merit Award, B.A. in Economics}{\textit{Aug 2015}}
+    \resumeSubheading{Consuelo Meyer's prize for Best Undergraduate Research Work 2014}{\textit{Jan 2015}}
+     \resumeSubSubItem{Kuznets's curve: an analysis for a sample of Asian and Latin American countries.}{ }
+     \resumeSubSubItem{Awarded by Universidad Autónoma de Nuevo León.}{ }
+     \resumeSubSubItem{Published in book ``Cinco enfoques para entender el crecimiento económico", Pearson 2015.}{ }
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

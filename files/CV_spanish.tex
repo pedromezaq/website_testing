@@ -1,0 +1,183 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref} %
+\hypersetup{
+    colorlinks=true,
+    urlcolor=blue,
+    unicode=true,
+}
+
+\usepackage{fancyhdr}
+\usepackage[utf8]{inputenc}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in} %-0.375in
+\addtolength{\evensidemargin}{-0.375in} %-0.375in
+\addtolength{\textwidth}{1in} %1in
+\addtolength{\topmargin}{-.5in} %-.5in
+\addtolength{\textheight}{1.0in} %1.0in
+
+
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[2]{
+  \vspace{5pt} \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+    \end{tabular*}
+    \vspace*{-7pt}
+}
+\newcommand{\resumeSubSubItem}[2]{
+    \vspace{-3pt} \item[]
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \hfill \textit{\small #2} \\
+    \end{tabular*} 
+    \vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\LARGE Pedro Meza Quintanilla} & Correo electrónico : \href{mailto:mezaquin@msu.edu}{\url{mezaquin@msu.edu}}\\
+  \url{https://sites.google.com/view/pmezaq} & Mobile : +1 517 XXX XXXX \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Educación}
+  \resumeSubHeadingListStart
+      \resumeSubheading
+      {Michigan State University}{East Lansing, MI}
+      \resumeSubSubItem{Doctorado en Economía}{Mayo 2021 (esperado)}
+      \resumeSubSubItem{Maestría en Economía}{Mayo 2018}
+    \resumeSubheading
+      {Universidad Autónoma de Nuevo León}{Monterrey, Mexico}
+      \resumeSubSubItem{Licenciatura en Economía}{Abril 2016}
+  \resumeSubHeadingListEnd
+
+%-----------FIELDS OF INTEREST-----------------
+\section{Intereses}
+ \resumeSubHeadingListStart
+   \item[]{
+     \textbf{}{Economía Pública, Economía Política}
+     \hfill
+   }
+ \resumeSubHeadingListEnd
+ 
+ %-----------WORK IN PROGRESS-----------------
+%\section{Work in Progress}
+% \resumeSubHeadingListStart
+%   \item[]{
+%     \textbf{}{}
+%     \hfill
+%   }
+% \resumeSubHeadingListEnd
+
+%-----------TEACHING EXPERIENCE-----------------
+\section{Experiencia Académica}
+  \resumeSubHeadingListStart
+   	\resumeSubheading
+	  {Asistente de Investigación,}{}
+	  \vspace{-20pt}
+	 \resumeSubheading
+	 {Programa de Verano de la Asociación Americana de Economistas}{East Lansing, MI}
+	  	\resumeSubSubItem{Fundamentos de Investigación}{Verano 2019}
+    \resumeSubheading
+      {Instructor, Universidad Autónoma de Nuevo León}{Monterrey, Mexico}
+      \resumeSubSubItem{Finanzas Públicas II}{Verano 2018}
+    \resumeSubheading
+      {Instructor, Michigan State University}{East Lansing, MI}
+      \resumeSubSubItem{EC370 - Economía del Deporte (Curso en Línea)}{Verano 2018}
+
+    \resumeSubheading
+      {Asistente de Maestro, Michigan State University}{East Lansing, MI}
+      \resumeSubSubItem{EC251H - Microeconomía y Política Pública}{Ene-May 2019}
+      \resumeSubSubItem{ISS305 - Evaluando evidencia en Ciencias Sociales}{Ene-May 2019}
+      \resumeSubSubItem{EC340 - Economía Internacional}{Ago-Dic 2018}
+      \resumeSubSubItem{EC412 - Análisis Económico de América Latina}{Ago-Dic 2018}
+      \resumeSubSubItem{EC301 - Microeconomía Intermedia}{Ene-May 2018 \& Ene-May 2017}
+      \resumeSubSubItem{EC201 - Introducción a la Microeconomía}{Fall 2017}
+      \resumeSubSubItem{EC302 - Macroeconomía Intermedia}{Fall 2016}
+
+  \resumeSubHeadingListEnd
+
+%-----------WORKING EXPERIENCE-----------------
+\section{Experiencia Laboral}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Instituto Federal de Telecomunicaciones}{Mexico City, Mexico}
+      \resumeSubSubItem{Regulación de Precios Mayoristas en Telecom}{Jun 2015 - Jul 2016}
+    \resumeSubheading
+      {Secretaría de Economía}{Monterrey, Mexico}
+      \resumeSubSubItem{Asistente en Delegación Nuevo León}{Feb 2015 - Jun 2015}
+    \resumeSubheading
+      {Banco de México}{Monterrey, Mexico}
+      \resumeSubSubItem{Interno en División Regional de Investigación}{Ene 2014 - Jul 2014}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------COMPUTER SKILLS-----------------
+\section{Software }
+ \resumeSubHeadingListStart
+   \item[]{
+     \textbf{}{STATA, \LaTeX, MATLAB, QGIS}
+     \hfill
+   }
+ \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}
