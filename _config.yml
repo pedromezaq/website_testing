@@ -309,3 +309,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+
+#Skin
+minimal_mistakes_skin: "contrast"  # "air", "aqua", "default", "dark", "dirt", "neon", "mint", "plum" "sunrise"
