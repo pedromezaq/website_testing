@@ -11,7 +11,7 @@ redirect_from:
 
 You can download my CV [here](../files/CV.pdf).
 
-También puedes descargar mi CV en [español](../files/CV_spanish.pdf).
+También puedes descargar mi CV en español [aquí](../files/CV_spanish.pdf).
 
 Education
 ======
