@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my CV [here](https:pedromezaq.com/files/CV.pdf)
+You can download my CV [here](/files/CV.pdf)
 
 Education
 ======
