@@ -31,9 +31,9 @@ $garamond                   : Garamond, serif;
 /* other typefaces */
 /*$annapurna                  : Annapurna*/
 
-$global-font-family         : $sans-serif;
-$header-font-family         : $sans-serif;
-$caption-font-family        : $serif;
+$global-font-family         : $annapurna; //$sans;
+$header-font-family         : $annapurna; //$sans-serif;
+$caption-font-family        : $annapurna; //$serif;
 
 /* type scale */
 $type-size-1                : 2.441em;  // ~39.056px
